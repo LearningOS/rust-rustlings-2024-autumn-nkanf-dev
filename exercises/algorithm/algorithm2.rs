@@ -19,7 +19,7 @@ impl<T> Node<T> {
         Node {
             val: t,
             prev: None,
-            next: None,2
+            next: None,
         }
     }
 }
