@@ -45,7 +45,7 @@ where
     pub fn add(&mut self, value: T) {
         self.count += 1;
         if self.count == 1 {
-            self.items.pop();C
+            self.items.pop();
             self.items.push(value);
             return;
         }
